@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #F9F4ED;
+
+}
+
+.top{
+     background: #9BC94A;
+     height: 30px;
+    
+}
+
+.navbar>.container-fluid{
+    background-color: white;
+}
+
+.bg-light{
+    background-color: white!important;
+}
+
+
+.user-image{
+    display: flex;
+    margin-right: 30px;
+}
+
+.user-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   object-fit: cover;
+   
+}
+        
+.dropdown button{
+    background-color: transparent;
+    color:#9BC94A ;
+    border: none;
+}
+
+.btn:hover {
+    color: #9BC94A;
+    background-color: transparent; 
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px 0;
+    text-align: center;
+}
+
+.profile-name h5{
+   
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.profile-name small{
+    color: #8d8f92;
+}
+
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; 
+    width: 133px;
+    z-index: -1;
+    background-color: blue;
+    }
+
+    .list-group-item{
+        border: none;
+        width: 100px;
+    }
+
+    .list-group.mt-4{
+        margin-top: 30px!important;
+        width: 133px;
+        height: 90vh;
+        
+
+    }
+
+    .mx-3 {
+        margin: 0!important;
+        padding: 10px;
+    }
+    
+    @media (max-width: 991.98px) {
+    .sidebar {
+    width: 100%;
+    }
+    }
+    .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    }
+    
+    .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
+
+    .hero{
+        background-color: #9BC94A; 
+        height: 140px;
+        margin-left: 85px;
+        
+        margin-top: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        /* align-items: flex-end; */
+        padding: 24px;
+      }
+
+      .payment{
+        margin-left: 85px;
+       
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+
+      .card{
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        align-items: center;
+      }
+      
+      .card img{
+        
+        height: 283.72px;
+        padding: 20px;
+        width: 300px;
+
+      }
+
+      img.bar{
+        height: 200px;
+        width: 85px;
+        
+      }
+      .card2{
+        background-color: white;
+        text-align: center;
+        width: 273.95px;
+        height: 160px;
+        border-radius: 30px;
+       
+      }
+
+      .card-limit{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        background-color: white;
+        padding: 10px 0 10px 15px;
+       
+      }
+
+      .card-limit >div{
+        background: #E7E7E7;
+      }
+
+
+      .box2{
+         grid-row: 1/3;
+         grid-column: 2;
+         width: 110px;
+
+         height: 90px;
+      }
+
+      .card3{
+        background-color: white;
+        text-align: center;
+        width: 273.95px;
+        height: 160px;
+        border-radius: 30px;
+      }
+
+
+      .card-limit2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: white;
+        grid-column-gap: 10px;
+        padding: 10px 15px 10px 15px;
+
+      }
+      .card-limit2 >div{
+        background: #E7E7E7;
+      }
+
+    .box4{
+        width: 110px;
+        height: 90px;
+    }
+    
+    .card-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        margin-left: 15px;
+    }
+
+   
+
+    .card-limit div{
+        display: grid;
+        justify-content: center;
+      align-content: center;
+    }
+
+    .card-limit2 div{
+        display: grid;
+        justify-content: center;
+      align-content: center;
+    }
+
+    .payment-history{
+        margin-left: 85px;
+        
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .payment-history .dropdown button{
+        color: black;
+        background: #E7E7E7;
+        border-radius: 20px;
+    }
+
+
+
+    .dataTable {
+        display: block;
+        width: 95%;
+      margin-left: 85px;
+        margin-top: 20px;
+        background: white;
+      }
+      
+      .dataTable thead, .dataTable tbody, .dataTable thead tr, .dataTable th {
+        display: block;
+      }
+      
+      .dataTable thead {
+        float: left;
+      }
+      
+      .dataTable tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+      }
+      td{
+        font-size: 12px;
+      }
+
+      td button{
+        border-radius: 20px;
+      }
+      
+      .dataTable td, .dataTable th {
+        padding: .625em;
+        line-height: 1.5em;
+        border-bottom: 1px dashed #ccc;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      
+      .dataTable th {
+        text-align: left;
+        background: white;
+        border-bottom: 1px dashed #aaa;
+      }
+      
+      .dataTable tbody tr {
+        display: table-cell;
+      }
+      
+      .dataTable tbody td {
+        display: block;
+      }
+      
+      .dataTable tr:nth-child(odd) {
+        background:white;
+      }
+      
+      @media screen and (min-width: 50em) {
+      
+        .dataTable {
+          display: table;
+        }
+        
+        .dataTable thead {
+          display: table-header-group;
+          float: none;
+        }
+        
+        .dataTable tbody {
+          display: table-row-group;
+        }
+        
+        .dataTable thead tr, .dataTable tbody tr {
+          display: table-row;
+        }
+        
+        .dataTable th, .dataTable tbody td {
+          display: table-cell;
+        }
+        
+        .dataTable td, .dataTable th {
+          width: auto;
+        }
+        
+      }
