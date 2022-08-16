@@ -306,6 +306,8 @@ nav{
 
       td button{
         border-radius: 20px;
+        background-color: #9BC94A;
+        color: white;
       }
       
       .dataTable td, .dataTable th {
